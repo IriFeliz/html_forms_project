@@ -86,48 +86,53 @@
         <br> <br> <br><br><br>
 
 
-        <h2> Сверстаем по шаблону используя формы        </h2>
-        <form action="#" method="get" enctype="multipart/form-data">
+                            <!-- ОФОРМЛЕНИЕ ПО ШАБЛОНУ -->
+
+
+        <h1> Сверстаем по шаблону используя формы        </h1>
+        <form action="#" method="get" enctype="multipart/form-data"> <!-- enctype with method get-->
             <div>
             <p> Имя </p> 
                 <input type="text" name="username" tabindex="1" placeholder="Введите имя">
+            <p> Фамилия</p>
+                <input type="text" name="userfamilyname" tabindex="2" placeholder="Введите фамилию">
         
             <p> Пароль </p>
-                <input type="password" name="userpass" placeholder="Введите пароль" tabindex="2">
+                <input type="password" name="userpass" placeholder="Введите пароль" tabindex="3">
             
             <p> Телефон </p>
-                <input type="tel" name="userphone" placeholder="Ваш телефон" tabindex="3">
+                <input type="tel" name="userphone" placeholder="Ваш телефон" tabindex="4">
             
             </div>
 
             <div>
                 <p> Пол </p>
-                <input type="radio" checked name="age" value="man" tabindex="4">
+                <input type="radio"  name="age" value="man" tabindex="5">
                 Мужской <br>
-                <input type="radio"  name="age" value="woman" placeholder="4">
+                <input type="radio" checked  name="age" value="woman" placeholder="5">
                 Женский
             
             </div>
             <div>
                 <p> Имушество </p>
-                <input type="checkbox" checked name="bike" value="yes" tabindex="5"> Велосипед  <br>
-                <input type="checkbox" name="car" value="yes" tabindex="6"> Машина  <br>
-                <input type="checkbox" name="flat" value="yes" disabled tabindex="7"> Квартира 
+                <input type="checkbox"  name="bike" value="yes" tabindex="6" disabled> Велосипед  <br>
+                <input type="checkbox" checked name="car" value="yes" tabindex="7"> Машина  <br>
+                <input type="checkbox" name="flat" value="yes"  tabindex="8"> Квартира 
             </div>
 
             <div>
                 <p>Дополнительная информация </p>
-                <textarea type="text" tabindex="8" > 
+                <textarea type="text" tabindex="9" > 
                 </textarea>
 
             </div>
             <div>
                 <p>     Прикрепить фото </p>
-                <input type="file" name="document" tabindex="9">
+                <input type="file" name="document" tabindex="10">
             </div>
             <div>
                 <p> Любимый цвет</p>
-                <select name="color" tabindex="10">
+                <select name="color" tabindex="11">
                     <option value="red"> Красный       </option>
                     <option value="grey"> Серый       </option>
                     <option value="blue"> Голубой       </option>
@@ -135,8 +140,8 @@
             </div>
             <div>
                 <p> Действия</p>
-                <button type="submit" tabindex="11">Отправить </button> 
-                <button type="submit" tabindex="12"> Очистить </button>
+                <button type="submit" tabindex="12">Отправить </button> 
+                <button type="submit" tabindex="13"> Очистить </button>
             </div>
 
 
